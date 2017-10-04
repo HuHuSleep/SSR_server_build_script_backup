@@ -125,3 +125,7 @@ wget -N --no-check-certificate https://github.com/Turing2333/SSR_server_build_sc
 提示没有完全匹配的内核,随便选一个内核就行,按照提示来输入数字,按回车键即可
 
 锐速安装成功标志为出现running字样。
+
+
+
+有问题请发邮件到kebi2014@gmail.com
