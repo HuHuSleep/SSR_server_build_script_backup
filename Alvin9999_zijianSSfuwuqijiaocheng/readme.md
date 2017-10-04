@@ -21,14 +21,23 @@ wget -N --no-check-certificate https://github.com/Turing2333/SSR_server_build_sc
 脚本内容：
 
 支持 限制 端口限速
+
 支持 限制 端口设备数
+
 支持 显示 当前连接IP
+
 支持 显示 SS/SSR连接+二维码
+
 支持 切换管理 单/多端口
+
 支持 一键安装 BBR
+
 支持 一键安装 锐速
+
 支持 一键安装 LotServer
+
 支持 一键封禁 垃圾邮件(SMAP)/BT/PT
+
 下载运行后会提示你输入数字来选择要做什么。
 
 安装脚本后，以后只需要运行这个命令就可以进行设置：bash ssr.sh
@@ -38,26 +47,44 @@ wget -N --no-check-certificate https://github.com/Turing2333/SSR_server_build_sc
 界面如下：
 
 安装 ShadowsocksR
+
 更新 ShadowsocksR
+
 卸载 ShadowsocksR
+
 安装 libsodium(chacha20)
+
 ————————————
+
 
 查看 账号信息
+
 显示 连接信息
+
 设置 用户配置
+
 手动 修改配置
+
 切换 端口模式
+
 ————————————
+
 
 启动 ShadowsocksR
+
 停止 ShadowsocksR
+
 重启 ShadowsocksR
+
 查看 ShadowsocksR 日志
+
 ————————————
 
+
 其他功能
+
 升级脚本
+
 当前状态: 已安装 并 已启动 当前模式: 单端口
 
 请输入数字(1-15)：
