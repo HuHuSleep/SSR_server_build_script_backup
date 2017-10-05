@@ -1,3 +1,10 @@
+vultr账号注册链接：     https://www.vultr.com/?ref=7224941
+
+
+
+
+
+
 一键部署ssr代码(虽然代码兼容SS客户端，但最好用SSR客户端，因为SSR客户端可以用SSR混淆协议）如下：
 
 yum -y install wget
