@@ -2,7 +2,11 @@ vultr账号注册链接：     https://www.vultr.com/?ref=7224941
 
 
 
+本脚本需要Linux root账户权限才能正常安装运行，所以如果不是 root账号，请先切换为root，如果是 root账号，那么请跳过！
 
+sudo su
+
+输入上面代码回车后会提示你输入当前用户的密码，输入并回车后，没有报错就继续下面的步骤安装ShadowsocksR。
 
 
 一键部署ssr代码(虽然代码兼容SS客户端，但最好用SSR客户端，因为SSR客户端可以用SSR混淆协议）如下：
