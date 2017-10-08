@@ -1,4 +1,4 @@
-#Ubuntu包更新
+# Ubuntu包更新
 
 apt-get 相关的升级更新命令有四个：
 
@@ -36,7 +36,7 @@ sudo reboot
 
 
 
-#单独给ShadowsocksR服务端指定 DNS
+# 单独给ShadowsocksR服务端指定 DNS
 
 此方法适合给ShadowsocksR服务端单独设置一个DNS服务器，而不想去修改系统默认的DNS，如果无所谓了，那么也可以通过修改系统默认的DNS来修改 ShadowsocksR服务端使用的DNS。
 
