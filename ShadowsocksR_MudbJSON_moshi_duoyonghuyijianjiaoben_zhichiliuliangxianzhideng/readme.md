@@ -7,7 +7,7 @@ sudo su
 
 注意：如果你安装的有我的另一个 ssr.sh 脚本，请先卸载ShadowsocksR服务端，再安装这个脚本（不能共存）！
 
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/Turing2333/SSR_server_build_script_backup/master/ShadowsocksR_MudbJSON_moshi_duoyonghuyijianjiaoben_zhichiliuliangxianzhideng/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
 
 注意：关于限制设备数数，这个协议必须是非原版并且不兼容原版才有效，也就是必须SSR客户端使用协议的情况下，才有效！
 
