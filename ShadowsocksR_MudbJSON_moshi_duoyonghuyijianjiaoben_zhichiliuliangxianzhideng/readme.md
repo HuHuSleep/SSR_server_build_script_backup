@@ -103,4 +103,36 @@ apt-get install -y cron
 10 */4 * * * /etc/init.d/ssr restart
 # 这个代表 每隔4小时的第10分重启一次 ShadowsocksR
 
+一键加速VPS服务器
+
+此加速教程为谷歌BBR加速和破解版锐速加速教程，两者只能成功装一个，都仅支持KVM框架的vps服务器，vultr的服务器都是KVM框架。如果你购买的不是vultr的服务器，那么你需要搞清楚你买的vps服务器是否是KVM框架的，很重要。（vultr的服务器装谷歌bbr）
+
+按照第二步的步骤，重新连接服务器ip，登录成功后，在命令栏里粘贴以下代码：
+
+【谷歌BBR加速教程】
+
+yum -y install wget
+
+wget --no-check-certificate https://raw.githubusercontent.com/Turing2333/SSR_server_build_script_backup/master/Alvin9999_zijianSSfuwuqijiaocheng/GoogleBBRjiasu/bbr.sh
+
+chmod +x bbr.sh
+
+./bbr.sh
+
+最后输入y重启服务器或者手动输入代码reboot
+
+【锐速加速教程】
+
+yum -y install wget
+
+wget -N --no-check-certificate https://raw.githubusercontent.com/Turing2333/SSR_server_build_script_backup/master/Alvin9999_zijianSSfuwuqijiaocheng/ruisujiasu/serverspeeder-all.sh && bash serverspeeder-all.sh
+
+把上面整个代码复制后粘贴进去。该方法是开机自动启动，部署一次就可以了。但有些内核是不适合的，部署过程中需要手动选择推荐的
+
+提示没有完全匹配的内核,随便选一个内核就行,按照提示来输入数字,按回车键即可
+
+锐速安装成功标志为出现running字样。
+
+
+
 相关链接： https://doub.io/ss-jc60/
