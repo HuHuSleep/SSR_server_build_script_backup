@@ -90,3 +90,10 @@ nameserver 8.8.4.4" > /etc/resolv.conf
 此方法具有次级优先级，当ShadowsocksR服务端目录下没有 dns.conf 文件时，ShadowsocksR便会读取这个系统默认的DNS。
 
 
+# 重启ShadowsocksR服务端
+
+以上DNS修改过后，都需要重启ShadowsocksR服务端才能生效。
+
+服务端启动时会显示所使用的DNS，可通过查看日志来确定是否生效。
+
+当ShadowsocksR服务端启动时，会先检测对应目录下是否有 dns.conf 文件，且格式是否正确，然后就会直接使用文件内设置的DNS服务器，如果没有这个文件或者为空等，就会去使用系统默认的DNS服务器配置。
