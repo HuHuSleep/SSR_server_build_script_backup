@@ -1,3 +1,7 @@
+vultr账号注册链接： https://www.vultr.com/?ref=7224941
+
+
+
 # Ubuntu包更新
 
 apt-get 相关的升级更新命令有四个：
