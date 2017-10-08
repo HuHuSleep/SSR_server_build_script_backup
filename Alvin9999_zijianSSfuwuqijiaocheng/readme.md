@@ -9,7 +9,7 @@ vultr账号注册链接：     https://www.vultr.com/?ref=7224941
 
 yum -y install wget
 
-wget --no-check-certificate https://github.com/Turing2333/SSR_server_build_script_backup/blob/master/Alvin9999_zijianSSfuwuqijiaocheng/morenjiamifangshihehunxiao/ssr.sh
+wget --no-check-certificate https://raw.githubusercontent.com/Turing2333/SSR_server_build_script_backup/master/Alvin9999_zijianSSfuwuqijiaocheng/CentOS_Debian_Ubuntu_SSR_danduoduankouyijianguanlijiaoben/ssr.sh
 
 chmod +x shadowsocksR.sh
 
