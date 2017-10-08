@@ -69,7 +69,7 @@ echo -e "8.8.8.8 53
 此方法具有最高优先级，当ShadowsocksR服务端启动时会检测目录下是否有 dns.conf 文件，如果有并格式正确，那就会直接读取这个 DNS配置，而不会读取 系统的DNS配置。
 
 
-修改系统默认的 DNS
+# 修改系统默认的 DNS
 
 Linux的默认DNS配置文件为： /etc/resolv.conf
 
