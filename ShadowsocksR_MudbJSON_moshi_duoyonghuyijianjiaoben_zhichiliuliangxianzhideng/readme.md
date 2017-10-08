@@ -1,3 +1,5 @@
+vultr账号注册链接： https://www.vultr.com/?ref=7224941
+
 本脚本需要Linux root账户权限才能正常安装运行，所以如果不是 root账号，请先切换为root，如果是 root账号，那么请跳过！
 
 sudo su
