@@ -13,7 +13,7 @@ sudo su
 
 yum -y install wget
 
-wget --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh
+wget --no-check-certificate https://raw.githubusercontent.com/Turing2333/SSR_server_build_script_backup/master/Alvin9999_zijianSSfuwuqijiaocheng/morenjiamifangshihehunxiao/ssr.sh
 
 chmod +x shadowsocksR.sh
 
