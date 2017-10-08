@@ -23,7 +23,7 @@ CentOS/Debian/Ubuntu ShadowsocksR单/多端口一键管理脚本：
 
 yum -y install wget
 
-wget -N --no-check-certificate https://github.com/Turing2333/SSR_server_build_script_backup/blob/master/Alvin9999_zijianSSfuwuqijiaocheng/CentOS_Debian_Ubuntu_SSR_danduoduankouyijianguanlijiaoben/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/Turing2333/SSR_server_build_script_backup/master/Alvin9999_zijianSSfuwuqijiaocheng/CentOS_Debian_Ubuntu_SSR_danduoduankouyijianguanlijiaoben/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 
 脚本内容：
 
@@ -112,7 +112,7 @@ wget -N --no-check-certificate https://github.com/Turing2333/SSR_server_build_sc
 
 yum -y install wget
 
-wget --no-check-certificate https://github.com/Turing2333/SSR_server_build_script_backup/blob/master/Alvin9999_zijianSSfuwuqijiaocheng/GoogleBBRjiasu/bbr.sh
+wget --no-check-certificate https://raw.githubusercontent.com/Turing2333/SSR_server_build_script_backup/master/Alvin9999_zijianSSfuwuqijiaocheng/GoogleBBRjiasu/bbr.sh
 
 chmod +x bbr.sh
 
@@ -125,7 +125,7 @@ chmod +x bbr.sh
 
 yum -y install wget
 
-wget -N --no-check-certificate https://github.com/Turing2333/SSR_server_build_script_backup/blob/master/Alvin9999_zijianSSfuwuqijiaocheng/ruisujiasu/serverspeeder-all.sh && bash serverspeeder-all.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/Turing2333/SSR_server_build_script_backup/master/Alvin9999_zijianSSfuwuqijiaocheng/ruisujiasu/serverspeeder-all.sh && bash serverspeeder-all.sh
 
 把上面整个代码复制后粘贴进去。该方法是开机自动启动，部署一次就可以了。但有些内核是不适合的，部署过程中需要手动选择推荐的
 
