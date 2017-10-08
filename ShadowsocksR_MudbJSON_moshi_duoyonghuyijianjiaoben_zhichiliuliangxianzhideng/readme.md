@@ -73,4 +73,35 @@ ShadowsocksR 默认支持UDP转发，服务端无需任何设置。
 
 注意：本脚本中的 显示链接信息中的 获取IP归属地功能使用的是 IPIP.NET 的免费API接口，因为限速所以每秒只能检测一次，同时 IPIP.NET 的免费API接口并不会保证稳定性，可能什么时候就突然暂时失效了，这是本人不可控的，有条件可以自建API接口。
 
+定时重启
+
+一些人可能需要定时重启ShadowsocksR服务端来保证稳定性等，所以这里用 crontab 定时。
+
+点击展开 查看更多
+
+crontab -e
+# 首先打开定时设置，然后会出现文本编辑，按 I键 进入编辑模式，根据需求添加下下面的代码到 这个文本编辑框内！！
+------------
+# 如果提示命令不存在，那么安装crontab：
+# CentOS系统：
+yum update
+yum install -y crond
+# Debian/Ubuntu系统：
+apt-get update
+apt-get install -y cron
+安装并打开 crontab 后，我们根据需求添加下面的代码，添加后我们按 ESC键 退出编辑模式，然后输入 :wq 保存并退出。
+
+# 添加定时重启任务
+# 是添加到 crontab -e 文本编辑框内，而不是让你执行！
+# 下面代码前面的 * * * * * 分别对应：分钟 小时 日 月 星期
+ 
+10 2 * * * /etc/init.d/ssr restart
+# 这个代表 每天2点10分重启一次 ShadowsocksR
+ 
+10 2 */2 * * /etc/init.d/ssr restart
+# 这个代表 每隔2天的2点10分重启一次 ShadowsocksR
+ 
+10 */4 * * * /etc/init.d/ssr restart
+# 这个代表 每隔4小时的第10分重启一次 ShadowsocksR
+
 相关链接： https://doub.io/ss-jc60/
