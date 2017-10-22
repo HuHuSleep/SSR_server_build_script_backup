@@ -15,9 +15,9 @@ yum -y install wget
 
 wget --no-check-certificate https://raw.githubusercontent.com/Turing2333/SSR_server_build_script_backup/master/Alvin9999_zijianSSfuwuqijiaocheng/morenjiamifangshihehunxiao/ssr.sh
 
-chmod +x shadowsocksR.sh
+chmod +x ssr.sh
 
-./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
+./ssr.sh 2>&1 | tee ssr.log
 
 ———————————————————代码分割线————————————————
 
